@@ -1,0 +1,174 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    margin: 0;
+    text-align: center;
+}
+
+.navigation-bar{
+    height: 70px;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-items{
+    margin: 4.5px 0;
+}
+
+
+nav{
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigation-items a{
+color: seashell;
+   font-weight: 600;
+   text-decoration: underline;
+   
+}
+
+
+.navigation-items a:hover{
+    color: gray;
+       font-weight: 600;
+       text-decoration: none;
+       
+    }
+
+.logo{
+    height: 50px;
+    margin: 4.5px 10px;
+    float: left;
+}
+
+.logo img{
+    height: 50px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#mission-section{
+    margin-top: 70px;
+    height: 700px;
+    width: 1200px;
+    background-image: url("assets/images/img-mission-background.jpg");
+display: flex;
+flex-flow: column wrap;
+align-items: center;
+justify-content: center;
+}
+
+
+
+.mission-headings{
+    height: fit-content;
+    width: 1200px;
+    background-color: black;
+}
+
+.mission-headings h2{
+    margin-top: 7px;
+ }
+ 
+.mission-headings h4{
+     margin-bottom: 7px;
+}
+
+#featured-tea{
+    margin-top: 60px;
+    margin-bottom: 70px;
+    max-width: 1000px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+#featured-tea h2{
+margin-bottom: 10px;
+}
+
+#featured-tea h4{
+    margin: 10px auto;
+}
+
+.tea-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.tea-image img{
+height: 200px;
+width: 300px;
+margin: 20px 15px 10px;
+}
+
+.tea-image p {
+    margin: 0;
+}
+
+.locations-section{
+    height: 500px;
+    width: 1200px;
+    background-image: url("assets/images/img-locations-background.jpg");
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-flow: column wrap;
+} 
+
+.locations-section div:not(:last-child) {
+    margin-right: 40px; /* Set your desired right margin */
+}
+
+.locations-section h2{
+margin: 0;
+} 
+
+.location-sqaures{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+
+
+.location{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    opacity: 1; 
+}
+
+
+
+footer{
+    height: 200px;
+    margin-left: 20px;
+}
+
+.copyright{
+    text-align: left;
+}
