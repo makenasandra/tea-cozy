@@ -1,13 +1,14 @@
 
-*{
+:root{
     box-sizing: border-box;
+    --main-color: seashell;
 }
 
 body{
     background-color: black;
     font-family: Helvetica, sans-serif;
     font-size: 22px;
-    color: seashell;
+    color: var(--main-color);
     opacity: 0.9;
     margin: 0;
     text-align: center;
